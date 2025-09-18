@@ -18,3 +18,8 @@ yarn-error.log*
 
 # other
 *.tsbuildinfo
+
+
+node_modules/
+.next/
+wordle.mov
