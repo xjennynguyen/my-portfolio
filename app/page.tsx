@@ -90,19 +90,19 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-12 text-center text-black">About Me</h2>
             <div className="max-w-3xl mx-auto">
               <p className="text-gray-700 mb-6 font-times text-lg">
-              I have a strong analytical and creative mindset with a passion for solving real-world problems through technology and innovation. 
-              I enjoy designing clean, efficient solutions and remain curious and eager to explore new tools, frameworks, and approaches. 
+              I’m passionate about using technology and data to solve complex problems and create real-world impact. I enjoy exploring new tools and approaches and 
+              thrive when tackling challenges that require critical thinking and innovation.
 
               </p>
               <p className="text-gray-700 mb-6 font-times text-lg">
-              Throughout my academic and project experiences, I've developed a solid foundation in technical problem-solving, 
-              data analysis, and software engineering. I take pride in my strong communication and teamwork skills, which allow me to
-               translate complex concepts into clear, actionable insights for both technical and non-technical audiences.  
+              I work best in fast-paced, challenging environments, combining technical expertise with adaptability and 
+              focus. I’m energized by collaborating with teams to deliver meaningful results.
+               
               </p>
               <p className="text-gray-700 font-times text-lg">
-              Looking ahead, I’m excited to apply my skills to impactful projects and contribute to meaningful opportunities.
-               Whether in software development, data science, or business analysis, I’m eager to keep growing while delivering value through thoughtful, 
-               data-driven solutions. 
+              I’m especially interested in opportunities at the intersection of 
+              technology and finance, where I can apply data-driven insights to build innovative solutions
+              and make an impact.
 
          
               </p>
@@ -116,8 +116,12 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-12 text-center text-black">Skills</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              <SkillCard title="Programming Languages" skills={["Java", "Python", "R", "HTML", "C"]} />
+              <SkillCard title="Programming Languages" skills={["Java", "Python", "R", "C"]} />
               <SkillCard title="Web Development" skills={["HTML", "CSS", "Git", "GitHub"]} />
+              <SkillCard title="Finance & Business" skills={["Microsoft Excel", "Microsoft PowerPoint", "Microsoft Word", "Basic Financial Modeling", "Data Visualization"]} />
+              <SkillCard title="Interpersonal & Professional" skills={["Communication", "Collaboration", "Problem-Solving", "Adaptability"]} />
+
+
             </div>
           </div>
         </section>
