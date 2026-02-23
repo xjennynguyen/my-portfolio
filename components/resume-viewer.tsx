@@ -29,7 +29,7 @@ export function ResumeViewer({ children, className, size = "default", variant = 
           <DialogTitle className="flex justify-between items-center">
             <span>Jenny Nguyen - Resume</span>
             <Button asChild variant="outline" size="sm">
-              <a href="/Website Updated Resume June 2025.pdf" download className="flex items-center">
+             <a href="/website-resume.pdf" download className="flex items-center">
                 <Download className="w-4 h-4 mr-2" />
                 Download
               </a>
